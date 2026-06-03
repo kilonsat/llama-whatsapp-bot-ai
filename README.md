@@ -23,5 +23,23 @@
 ```bash
    npm install @whiskeysockets/baileys @hapi/boom groq-sdk express pino qrcode-terminal
 ```
-
-
+3. **إعداد متغيرات البيئة:**
+يجب عليك إعداد متغير البيئة الخاص بـ Groq API على جهازك أو منصة الاستضافة:
+​على أنظمة Linux/Mac:
+```bash
+   export GROQ_API_KEY="your_groq_api_key_here"
+```
+على أنظمة Windows (CMD):
+```bash
+   set GROQ_API_KEY="your_groq_api_key_here"
+```
+4. **تشغيل البوت:**
+```bash
+   node <اسم_ملف_البوت>.js
+```
+قم بمسحه عبر واتساب (الأجهزة المرتبطة) لتسجيل الدخول عند ظهور الـ QR Code في الطرفية (Terminal).
+​🔒 نظام الحماية والتعديل
+​كلمة السر الافتراضية: هي kill. يمكنك تعديلها مباشرة من الكود عبر المتغير PASSWORD.
+​توجيه الذكاء الاصطناعي: يمكنك تعديل سلوك وشخصية البوت عبر تغيير نص الـ SYSTEM_PROMPT.
+​🌐 الاستضافة (Deployment)
+​المشروع مهيأ ليعمل على منصات مثل Railway أو Render او Replit، حيث يستمع السيرفر إلى المنفذ (Port) المحدد من السيرفر، ويمكنك استخدام UptimeRobot لعمل طلبات مستمرة لرابط السيرفر لضمان بقائه حياً 24/7.
