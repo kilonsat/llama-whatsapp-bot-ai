@@ -20,8 +20,7 @@
    cd <اسم_المجلد>
 ```
 2. **​تثبيت الحزم البرمجية:**
-```bash   npm install @whiskeysockets/baileys @hapi/boom groq-sdk express pino qrcode-terminal ```
+```bash   npm install @whiskeysockets/baileys @hapi/boom groq-sdk express pino qrcode-terminal
+```
 
-3.​إعداد متغيرات البيئة:
 
-يجب عليك إعداد متغير البيئة الخاص بـ Groq API على جهازك
