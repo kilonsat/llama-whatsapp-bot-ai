@@ -17,7 +17,8 @@
 1. **استنساخ المستودع:**
 ```bash
    git clone <رابط_مستودعك_هنا>
-   cd <اسم_المجلد> 
+   cd <اسم_المجلد>
+```
 2. **​تثبيت الحزم البرمجية:**
    npm install @whiskeysockets/baileys @hapi/boom groq-sdk express pino qrcode-terminal
 
