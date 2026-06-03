@@ -20,15 +20,21 @@
    cd <اسم_المجلد>
 2.​تثبيت الحزم البرمجية:
    npm install @whiskeysockets/baileys @hapi/boom groq-sdk express pino qrcode-terminal
+
 3.​إعداد متغيرات البيئة:
+
 يجب عليك إعداد متغير البيئة الخاص بـ Groq API على جهازك أو منصة الاستضافة:
+
    # على أنظمة Linux/Mac
    export GROQ_API_KEY="your_groq_api_key_here"
    
-   # على أنظمة Windows (CMD)
+
+  # على أنظمة Windows (CMD)
    set GROQ_API_KEY="your_groq_api_key_here"
 4.تشغيل البوت:
    node <اسم_ملف_البوت>.js
+
+
 عند التشغيل الأول، سيظهر لك QR Code في الطرفية (Terminal)، قم بمسه عبر واتساب (الأجهزة المرتبطة) لتسجيل الدخول.
 ​🔒 نظام الحماية والتعديل
 ​كلمة السر الافتراضية: هي kill. يمكنك تعديلها مباشرة من الكود عبر المتغير PASSWORD.
